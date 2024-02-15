@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b3cbbfd-78c3-495d-9541-a6d6ca36edfb" name="Changes" comment="small OOP project to make a semester result calculator and CGPA finder">
+    <list default="true" id="9b3cbbfd-78c3-495d-9541-a6d6ca36edfb" name="Changes" comment="Created classes of semester result and a course result and storing all the results of people in a arrayList.&#10;&#10;Need to add few more functions such as creating quizzes and assignments along with and functions to modify and display the data &#10;&#10;then i need to connect it with firebase">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CourseResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CourseResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SemesterResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SemesterResult.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,20 @@
     </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AhmedxMujtaba&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b243cb3e-7b1b-4e85-b2af-ae2204c32647" />
+        <option name="url" value="https://github.com/AhmedxMujtaba/Semister-Result-Database" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -51,15 +67,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -84,7 +100,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707923183966</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created classes of semester result and a course result and storing all the results of people in a arrayList.&#10;&#10;Need to add few more functions such as creating quizzes and assignments along with and functions to modify and display the data &#10;&#10;then i need to connect it with firebase">
+      <option name="closed" value="true" />
+      <created>1707934780869</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707934780869</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created classes of semester result and a course result and storing all the results of people in a arrayList.&#10;&#10;Need to add few more functions such as creating quizzes and assignments along with and functions to modify and display the data &#10;&#10;then i need to connect it with firebase">
+      <option name="closed" value="true" />
+      <created>1707934916179</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707934916179</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,7 +132,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="small OOP project to make a semester result calculator and CGPA finder" />
-    <option name="LAST_COMMIT_MESSAGE" value="small OOP project to make a semester result calculator and CGPA finder" />
+    <MESSAGE value="Created classes of semester result and a course result and storing all the results of people in a arrayList.&#10;&#10;Need to add few more functions such as creating quizzes and assignments along with and functions to modify and display the data &#10;&#10;then i need to connect it with firebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created classes of semester result and a course result and storing all the results of people in a arrayList.&#10;&#10;Need to add few more functions such as creating quizzes and assignments along with and functions to modify and display the data &#10;&#10;then i need to connect it with firebase" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

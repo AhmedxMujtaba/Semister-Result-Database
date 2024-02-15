@@ -33,6 +33,18 @@ public class CourseResult {
         return marks;
     }
 
+    //setter methods
+
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
+    }
+
+    public void setMarks(int marks) {
+        this.marks = marks;
+        this.grade = calculateGrade();
+        this.gpa = calculateGPA();
+    }
+
     // Methods for user input
     public String courseNameInput() {
         System.out.print("Enter course Name: ");

@@ -61,8 +61,26 @@ public class SemesterResult {
         return numberOfCourses;
     }
 
+
     public CourseResult[] getCourseResultsArray() {
         return courseResultsArray;
+    }
+
+    //setter methods
+    public void setStudentName(String studentName){
+        this.studentName = studentName;
+    }
+
+    public void setStudentRollNumber(String studentRollNumber) {
+        this.studentRollNumber = studentRollNumber;
+    }
+
+    public void setStudentSemester(String studentSemester) {
+        this.studentSemester = studentSemester;
+    }
+
+    public void setStudentCGPA(double studentCGPA) {
+        this.studentCGPA = studentCGPA;
     }
 
     // Courses adder
@@ -73,7 +91,7 @@ public class SemesterResult {
         }
     }
 
-    private double cgpaCalculator() {
+    public double cgpaCalculator() {
         double totalCGPA = 0;
         int validCourses = 0;
         for (int i = 0; i < courseResultsArray.length; i++) {
